@@ -1,0 +1,328 @@
+#game
+{
+   width: 55vw;
+   border: black;
+   border-style: solid;
+   border-width: 5px;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   position: absolute;
+   background: white;
+   height: 42vw;
+   visibility: hidden;
+}
+
+#menu
+{
+   width: 55vw;
+   border: black;
+   border-style: solid;
+   border-width: 5px;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   position: absolute;
+   background: white;
+   height: 42vw;
+   visibility: visible;
+}
+
+#desk
+{
+   width: inherit;
+   top: 28%;
+   position: absolute;
+}
+
+#people
+{
+   width: 10vw;
+   position: absolute;
+   left: 26vw;
+   top: 16.2%;
+   visibility: hidden;
+}
+
+#document
+{
+   overflow: hidden;
+}
+
+#option1
+{
+
+   position: absolute;
+   bottom: 19%;
+   left: .5%;
+   height: 18%;
+   background-image: url(optionunpressed.png);
+   width: 38%;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+#option2
+{
+   position: absolute;
+   bottom: .5%;
+   left: .5%;
+   height: 18%;
+   background-image: url(optionunpressed.png);
+   width: 38%;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+#option3
+{
+   position: absolute;
+   bottom: 19%;
+   left: 39%;
+   height: 18%;
+   background-image: url(optionunpressed.png);
+   width: 38%;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+#option4
+{
+   position: absolute;
+   bottom: .5%;
+   left: 39%;
+   height: 18%;
+   background-image: url(optionunpressed.png);
+   width: 38%;
+   background-size: contain;
+   background-repeat: no-repeat;
+
+}
+
+#option1:hover
+{
+   background-image: url(optionpressed.png);
+}
+
+#option2:hover
+{
+   background-image: url(optionpressed.png);
+}
+
+#option3:hover
+{
+   background-image: url(optionpressed.png);
+}
+
+#option4:hover
+{
+   background-image: url(optionpressed.png);
+}
+
+#panic
+{
+   position: absolute;
+   left: 79.5%;
+   bottom: 12%;
+   background-image: url(seudpressed.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: 19%;
+   height: 25%;
+}
+
+#panic:hover
+{
+   background-image: url(seudunpressed.png);
+}
+
+#panictext
+{
+   font-family: 'VT323', monospace;
+   font-size: 2.2vw;
+   position: absolute;
+   left: 50%;
+   top: 28%;
+   color: white;
+   transform: translate(-50%, -50%);
+}
+
+#question
+{
+   font-family: 'VT323', monospace;
+   font-size: 2.5vw;
+   margin-left: 1.5vw;
+   width: 35vw;
+}
+
+#score
+{
+   font-family: 'VT323', monospace;
+   font-size: 2.5vw;
+   right: 2vw;
+   position: absolute;
+   top: 1.75vw;
+   margin-top: -.1vw;
+}
+
+.optiontext
+{
+   margin-left: .95vw;
+   margin-top: .75vw;
+   font-family: 'VT323', monospace;
+   font-size: 1.5vw;
+   margin-right: .95vw;
+}
+
+#panicalert
+{
+   position: absolute;
+   width: 100.1%;
+   height: 12.5vw;
+   background: red;
+   top: 30%;
+   transform: translateY(-50%);
+   visibility: hidden;
+   opacity: 0;
+   transition: opacity 1s ease-in;
+}
+
+#panicalerttext
+{
+   position: absolute;
+   left: 50%;
+   top: 22%;
+   transform: translate(-50%, -50%);
+   font-family: 'VT323', monospace;
+   color: white;
+   font-size: 5vw;
+   width: 100%;
+   text-align: center;
+}
+
+#gg
+{
+   position: absolute;
+   width: 100.1%;
+   height: 100%;
+   background: red;
+   top: 0;
+   left: 0;
+   visibility: hidden;
+}
+
+#gg1
+{
+   position: absolute;
+   left: 50%;
+   top: 30%;
+   transform: translate(-50%, -50%);
+   font-family: 'VT323', monospace;
+   color: white;
+   font-size: 8vw;
+}
+
+#gg2
+{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   font-family: 'VT323', monospace;
+   color: white;
+   width: 100%;
+   text-align: center;
+   font-size: 3.5vw;
+}
+
+#gg3
+{
+   position: absolute;
+   left: 50%;
+   top: 70%;
+   transform: translate(-50%, -50%);
+   border-style: solid;
+   background-color: red;
+   border-color: white;
+   color: white;
+   border-width: .3vw;
+   font-family: 'VT323', monospace;
+   width: 20vw;
+   height: 4vw;
+   border-radius: .5vw;
+}
+
+#startbutton
+{
+   width: 20vw;
+   height: 8vw;
+   background-image: url(startunpressed.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: absolute;
+   left: 50%;
+   bottom: 0%;
+   transform: translate(-50%, -50%);
+   font-family: 'VT323', monospace;
+   text-align: center;
+   line-height: 7vw;
+   font-size: 5vw;
+}
+
+#startbutton:hover
+{
+   background-image: url(startpressed.png);
+}
+
+#title
+{
+   font-family: 'VT323', monospace;
+   font-size: 6vw;
+   width: 100%;
+   position: absolute;
+   left: 0%;
+   top: 25%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+}
+
+#gamemenu
+{
+   font-family: 'VT323', monospace;
+   font-size: 1.3vw;
+   position: absolute;
+   bottom: 3%;
+   right: 4%;
+   height: 7%;
+   background-image: url(optionunpressed.png);
+   width: 15%;
+   background-size: contain;
+   background-repeat: no-repeat;
+   text-align: center;
+}
+
+#gamemenu:hover
+{
+   background-image: url(optionpressed.png);
+}
+
+#buttonguard
+{
+   bottom: 0px;
+   left: 0px;
+   position: absolute;
+   z-index: 1000;
+   width: 43vw;
+   height: 16.5vw;
+}
+
+#alarmgaurd
+{
+   visibility: visible;
+   position: absolute;
+   bottom: 5vw;
+   right: 0px;
+   width: 12vw;
+   height: 11vw;
+   z-index: 1000;
+}
